@@ -6,14 +6,3 @@ let typingEffect = new Typed(".typedText",{
   backSpeed : 100,
   backDelay : 1000,
 })
-
-        /* ----- NAVIGATION BAR FUNCTION ----- */
-        function myMenuFunction(){
-          let menuBtn = document.getElementById("NavMenu");
-      
-          if(menuBtn.className === "nav-menu"){
-            menuBtn.className += " responsive";
-          } else {
-            menuBtn.className = "nav-menu";
-          }
-        }
