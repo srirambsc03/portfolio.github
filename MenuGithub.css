@@ -56,9 +56,16 @@ html{
     cursor: pointer;
     transition: .4s;
 }
-.btn>i{
+.btn a{
+    list-style: none;
+    text-decoration: none;
+}
+.btn a>i{
     margin-left: 10px;
 }
+/* .btn>i{
+    margin-left: 10px;
+} */
 .btn:hover{
     background: var(--second-color);
     color: var(--color-white);
